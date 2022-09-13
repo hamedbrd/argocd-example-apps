@@ -9,6 +9,9 @@ spec:
     repoURL: https://github.com/hamedbrd/argocd-example-apps
     targetRevision: test-argocd-stuff
     path: helm
+    helm:
+      valueFiles:
+        - ../helm-guestbook/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: default
