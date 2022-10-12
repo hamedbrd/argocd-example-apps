@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-8
+  name: nginx-9
   namespace: default
 spec:
   containers:
